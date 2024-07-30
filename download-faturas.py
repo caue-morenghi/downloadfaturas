@@ -178,7 +178,7 @@ for i_operadora in range(1, 6):
                     time.sleep(2)
 
                 # Clica no "X" para fechar a janela de seleção de relatórios, AQUI ESTÁ DANDO ERRO: ELEMENTO NÃO INTERAGÍVEL
-                #driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[3]/div/div/button/span/i').click()
+                #driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[3]/div/div/button/span/i').click().
                     driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[5]/div/div/span').click()
                 except NoSuchElementException:
                     print("erro ao desmarcar o input 'Selecionar todos'")
